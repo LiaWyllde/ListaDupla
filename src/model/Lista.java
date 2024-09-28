@@ -6,12 +6,6 @@ public class Lista {
 	private No ultimo = null;
 	private static int qtElements = 0;
 	
-	/*
-	 * No nozinho; não é necessário porque meio que nada exite aqui
-	 * então é  "roubar" e parece que o abençoado lá não gosta de mim
-	 * melhor não dar sopa pro azar
-	 */
-	
 	public void insert(String palavra) {
 		
 		No nozinho = new No(palavra);
